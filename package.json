@@ -1,0 +1,26 @@
+{
+  "name": "doc-ai",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0",
+  "dependencies": {
+    "@langchain/core": "^0.3.51",
+    "@langchain/google-genai": "^0.2.5",
+    "@langchain/langgraph": "^0.2.68",
+    "@langchain/ollama": "^0.2.0",
+    "@types/node": "^22.15.3",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.24"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
